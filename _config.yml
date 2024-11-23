@@ -12,15 +12,7 @@ author:
   linkedin: https://www.linkedin.com/in/kaiying-zhu-a520b2134
 
 # Theme and layout
-theme: minima  # Default GitHub Pages theme
-paginate: 5     # Number of posts per page (for blog)
-remote_theme: pages-themes/cayman@v0.2.0
-
-# Social media links
-#social_links:
-  #twitter: https://twitter.com/yourusername
-  #github: https://github.com/yourusername
-  #linkedin: https://linkedin.com/in/yourusername
+remote_theme: pages-themes/cayman@v0.2.0  # Use Cayman theme
 
 # Markdown settings
 markdown: kramdown
@@ -40,11 +32,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-
-# Defaults (optional: add defaults for specific content types)
-defaults:
-  - scope:
-      path: ""      # Applies to all files
-    values:
-      layout: default
-      author: John Doe
