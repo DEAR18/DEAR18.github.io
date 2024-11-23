@@ -8,8 +8,8 @@ baseurl: ""  # Leave blank for root deployment (https://yourusername.github.io)
 author:
   name: Kaiying
   email: smu_zky@live.com
-  github: https://github.com/DEAR18
-  linkedin: https://www.linkedin.com/in/kaiying-zhu-a520b2134
+  #github: https://github.com/DEAR18
+  #linkedin: https://www.linkedin.com/in/kaiying-zhu-a520b2134
 
 # Theme and layout
 remote_theme: pages-themes/cayman@v0.2.0  # Use Cayman theme
