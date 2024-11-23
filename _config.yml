@@ -1,0 +1,50 @@
+# Site settings
+title: My Personal Homepage
+description: Welcome to my GitHub Pages site! I share my projects, blog posts, and more.
+url: https://DEAR18.github.io
+baseurl: ""  # Leave blank for root deployment (https://yourusername.github.io)
+
+# Author details
+author:
+  name: Kaiying
+  email: smu_zky@live.com
+  github: https://github.com/DEAR18
+  linkedin: https://www.linkedin.com/in/kaiying-zhu-a520b2134
+
+# Theme and layout
+theme: minima  # Default GitHub Pages theme
+paginate: 5     # Number of posts per page (for blog)
+remote_theme: pages-themes/cayman@v0.2.0
+
+# Social media links
+#social_links:
+  #twitter: https://twitter.com/yourusername
+  #github: https://github.com/yourusername
+  #linkedin: https://linkedin.com/in/yourusername
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge  # Code syntax highlighter
+
+# Plugins (GitHub Pages-supported Jekyll plugins)
+plugins:
+  - jekyll-feed     # RSS feed generation
+  - jekyll-sitemap  # Sitemap for SEO
+  - jekyll-seo-tag  # Improved SEO metadata
+  - jekyll-paginate # Pagination support
+  - jekyll-remote-theme
+
+# Build settings
+exclude:
+  - README.md       # Exclude README from the site
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+# Defaults (optional: add defaults for specific content types)
+defaults:
+  - scope:
+      path: ""      # Applies to all files
+    values:
+      layout: default
+      author: John Doe
