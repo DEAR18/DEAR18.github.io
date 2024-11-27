@@ -1,15 +1,15 @@
 # Site settings
-title: My Personal Homepage
-description: Welcome to my GitHub Pages site! I share my projects, blog posts, and more.
-url: https://DEAR18.github.io
-baseurl: ""  # Leave blank for root deployment (https://yourusername.github.io)
+# title: My Personal Homepage
+# description: I share my projects, blog posts, and more.
+# url: https://DEAR18.github.io
+# baseurl: ""  # Leave blank for root deployment (https://yourusername.github.io)
 
 # Author details
-author:
-  name: Kaiying
-  email: smu_zky@live.com
-  #github: https://github.com/DEAR18
-  #linkedin: https://www.linkedin.com/in/kaiying-zhu-a520b2134
+# author:
+#   name: Kaiying
+#   email: smu_zky@live.com
+#   github: https://github.com/DEAR18
+#   linkedin: https://www.linkedin.com/in/kaiying-zhu-a520b2134
 
 # Theme and layout
 remote_theme: pages-themes/cayman@v0.2.0  # Use Cayman theme
@@ -26,9 +26,12 @@ plugins:
   - jekyll-paginate # Pagination support
   - jekyll-remote-theme
 
+# show_downloads: false
+# google_analytics: [Your Google Analytics tracking ID]
+
 # Build settings
 exclude:
-  - README.md       # Exclude README from the site
+  - README.md
   - Gemfile
   - Gemfile.lock
   - node_modules

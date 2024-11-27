@@ -1,0 +1,22 @@
+<!-- 
+    This HTML snippet is used to create an article card in the homepage.
+
+    The article card includes:
+    1. An image representing the article.
+    2. A title for the article.
+    3. A short description of the article.
+    4. A clickable link that directs to the article page.
+    
+    All content (image, title, description, and link) is passed dynamically using the Jekyll `include` directive.
+-->
+
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+    <a href="{{ include.article_link }}"
+        style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 20px;">
+        <img src="{{ include.image_link }}" alt="Image" style="width: 150px; height: auto; border-radius: 8px;">
+        <div>
+            <h2 style="margin: 0;">{{ include.title }}</h2>
+            <p style="margin: 5px 0;">{{ include.description }}</p>
+        </div>
+    </a>
+</div>
