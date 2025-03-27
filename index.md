@@ -1,7 +1,7 @@
 ---
 layout: homepage_layout
-title: My Personal Homepage
-description: I share my projects, blog posts, and more.
+title: My Journey of Learning and Sharing
+description: I'm a software engineer in robotics, and I plan to document my learning journey here.
 ---
 
 <!-- Article Card -->
