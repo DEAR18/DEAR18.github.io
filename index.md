@@ -18,3 +18,10 @@ description: I'm a software engineer in robotics, and I plan to document my lear
    title="Run VINS-Mono on Mac"
    description="A simple way to build and run ROS projects on Mac"
 %}
+
+{% include article_card.html
+   article_link="/articles/3.Apply_IMU_Preintegration_in_Kalman_Filter"
+   image_link="/images/3.Apply_IMU_Preintegration_in_Kalman_Filter/fig0.png"
+   title="Apply IMU Preintegration in Kalman Filter"
+   description="Derivation of Kalman Filter state update using IMU preintegration"
+%}
