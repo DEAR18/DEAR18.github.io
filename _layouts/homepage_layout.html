@@ -18,17 +18,18 @@
 <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <header class="page-header" role="banner">
+    <header class="page-header" role="banner" style="text-align: left; height: 360px;">
         <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         <h2 class="project-tagline">{{ page.description | default: site.description | default:
             site.github.project_tagline }}</h2>
         <!-- Social Media Links -->
-        <div class="social-links">
-            <a href="https://github.com/DEAR18" target="_blank">
-                <img src="/images/icon/github-mark-white.png" alt="GitHub" style="width: 28px; margin: 0 10px;">
+        <div class="social-links" style="display: flex; justify-content: flex-start; align-items: center;">
+            <a href="https://github.com/DEAR18" target="_blank" style="display: flex; align-items: center;">
+                <img src="/images/icon/github-mark-white.png" alt="GitHub" style="height: 22px; margin: 0 10px;">
             </a>
-            <a href="https://www.linkedin.com/in/kaiying-zhu-a520b2134" target="_blank">
-                <img src="/images/icon/linkedin.png" alt="LinkedIn" style="width: 28px; margin: 0 10px;">
+            <a href="https://www.linkedin.com/in/kaiying-zhu-a520b2134" target="_blank"
+                style="display: flex; align-items: center;">
+                <img src="/images/icon/linkedin.png" alt="LinkedIn" style="height: 34px; margin: 0 10px;">
             </a>
         </div>
     </header>

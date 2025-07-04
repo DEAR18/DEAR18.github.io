@@ -2,7 +2,7 @@
 
 https://dear18.github.io/
 
-# Testing GitHub Pages site locally
+# Test GitHub Page locally
 
 Use Docker to get test environment.
 This repository uses Jekyll to generate static website.

@@ -1,7 +1,7 @@
 ---
 layout: homepage_layout
 title: My Journey of Learning and Sharing
-description: I'm a software engineer in robotics, and I plan to document my learning journey here.
+description: I am a software engineer in robotics. <br> I have worked at a robotics startup and an AI high-tech company <br> where I was responsible for developing localization algorithms for indoor robots and autonomous driving systems.
 ---
 
 <!-- Article Card -->
